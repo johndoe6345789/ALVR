@@ -224,7 +224,7 @@ dependencies = [
  "mdns-sd",
  "ndk",
  "ndk-context",
- "rand 0.9.3",
+ "rand 0.10.2",
  "serde",
  "serde_json",
 ]
@@ -240,7 +240,7 @@ dependencies = [
  "alvr_system_info",
  "eframe",
  "env_logger",
- "rand 0.9.3",
+ "rand 0.10.2",
 ]
 
 [[package]]
@@ -295,7 +295,7 @@ dependencies = [
  "env_logger",
  "ico",
  "nvml-wrapper",
- "rand 0.9.3",
+ "rand 0.10.2",
  "serde",
  "serde_json",
  "settings-schema",
@@ -727,7 +727,7 @@ dependencies = [
  "enumflags2",
  "futures-channel",
  "futures-util",
- "rand 0.9.3",
+ "rand 0.9.5",
  "raw-window-handle",
  "serde",
  "serde_repr",
@@ -4523,9 +4523,9 @@ dependencies = [
 
 [[package]]
 name = "rand"
-version = "0.9.3"
+version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ec095654a25171c2124e9e3393a930bddbffdc939556c914957a4c3e0a87166"
+checksum = "b9ef1d0d795eb7d84685bca4f72f3649f064e6641543d3a8c415898726a57b41"
 dependencies = [
  "rand_chacha 0.9.0",
  "rand_core 0.9.3",
@@ -4848,9 +4848,9 @@ dependencies = [
 
 [[package]]
 name = "rustls"
-version = "0.23.34"
+version = "0.23.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a9586e9ee2b4f8fab52a0048ca7334d7024eef48e2cb9407e3497bb7cab7fa7"
+checksum = "48e13bd8c0e9365c43cfa5c9e8f9ad49d3c8444926c9aac819e0e4dc503c8fdf"
 dependencies = [
  "log",
  "once_cell",
@@ -4882,9 +4882,9 @@ dependencies = [
 
 [[package]]
 name = "rustls-webpki"
-version = "0.103.13"
+version = "0.103.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61c429a8649f110dddef65e2a5ad240f747e85f7758a6bccc7e5777bd33f756e"
+checksum = "4443b1b6d39d7c663139942cc4558262562d2c84123bb6282ef177009ca8b281"
 dependencies = [
  "ring",
  "rustls-pki-types",
@@ -5981,7 +5981,7 @@ dependencies = [
  "http",
  "httparse",
  "log",
- "rand 0.9.3",
+ "rand 0.9.5",
  "sha1",
  "thiserror 2.0.17",
  "utf-8",
@@ -5998,7 +5998,7 @@ dependencies = [
  "http",
  "httparse",
  "log",
- "rand 0.9.3",
+ "rand 0.9.5",
  "sha1",
  "thiserror 2.0.17",
  "utf-8",
